@@ -13,11 +13,9 @@ namespace Volume_of_a_hemisphere
                 Console.WriteLine("Hemisphere Radius: ");
                 double radius = double.Parse(Console.ReadLine());
                 double pi = Math.PI;
-            double tt = (4/3);
+                double tt = (4/3);
                 double volume =  (tt) * (pi * (radius * radius * radius));
-
-               double volume2 = volume/2;
-
+                double volume2 = volume/2;
                 Console.WriteLine("Volume = " + volume2);
                 Console.ReadKey();
 
